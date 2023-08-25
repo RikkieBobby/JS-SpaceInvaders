@@ -1,6 +1,7 @@
 const gameArea = document.querySelector('.game-area')
+let currentShooterIndex = 350
 
-for (let i = 0; i < 342; i++) {
+for (let i = 0; i < 360; i++) {
     const square = document.createElement('div')
     gameArea.appendChild(square)
 }
@@ -20,3 +21,9 @@ function placeInvaders() {
 }
 
 placeInvaders()
+
+function placeShooter() {
+    squares[currentShooterIndex].classList.add('shooter')
+}
+
+placeShooter()
