@@ -1,5 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Space+Grotesk&display=swap");
+
 body {
     width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Black Ops One", sans-serif;
+}
+
+#instructions {
+    font-family: 'Space Grotesk', sans-serif;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#game-area {
+    width: 600px;
+    height: 400px;
+    background-color: black;
     margin: 0 auto;
     text-align: center;
 }
