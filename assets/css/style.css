@@ -14,10 +14,18 @@ body {
     margin: 0 auto;
 }
 
-#game-area {
-    width: 600px;
+.game-area {
+    width: 400px;
     height: 400px;
+    display: flex;
+    flex-wrap: wrap;
     background-color: black;
     margin: 0 auto;
-    text-align: center;
 }
+
+.game-area div {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+}
+
