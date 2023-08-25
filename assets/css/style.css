@@ -19,13 +19,16 @@ body {
     height: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
     margin: 0 auto;
+    border: 1px solid black;
 }
 
 .game-area div {
     width: 20px;
     height: 20px;
-    border: 1px solid white;
 }
 
+.invader {
+    background-color: green;
+    border-radius: 10px;
+}
